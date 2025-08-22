@@ -5,22 +5,22 @@ A modern e-commerce mobile app built with React Native (Expo) and .NET 9 Web API
 <div align="center">
   <table>
     <tr>
-      <td><img src="images/home.png" width="180" alt="Home Screen" /></td>
-      <td><img src="images/product.png" width="180" alt="Product Screen" /></td>
-      <td><img src="images/cart.png" width="180" alt="Cart Screen" /></td>
-      <td><img src="images/wishlist.png" width="180" alt="Wishlist Screen" /></td>
+      <td align="center" ><img src="images/home.png" width="180" alt="Home Screen" /></td>
+      <td align="center" ><img src="images/product.png" width="180" alt="Product Screen" /></td>
+      <td align="center" ><img src="images/cart.png" width="180" alt="Cart Screen" /></td>
+      <td align="center" ><img src="images/wishlist.png" width="180" alt="Wishlist Screen" /></td>
     </tr>
     <tr>
-      <td><img src="images/filters.png" width="180" alt="Product Screen" /></td>
-      <td><img src="images/search.png" width="180" alt="Search Screen" /></td>
-      <td><img src="images/profile.png" width="180" alt="Profile Screen" /></td>
-      <td><img src="images/admin-panel.png" width="180" alt="Admin Panel" /></td>
+      <td align="center" ><img src="images/filters.png" width="180" alt="Product Screen" /></td>
+      <td align="center" ><img src="images/search.png" width="180" alt="Search Screen" /></td>
+      <td align="center" ><img src="images/profile.png" width="180" alt="Profile Screen" /></td>
+      <td align="center" ><img src="images/admin-panel.png" width="180" alt="Admin Panel" /></td>
     </tr>
     <tr>
-      <td ><img src="images/user-panel.png" width="180" alt="User Panel" /></td>
-      <td ><img src="images/category-panel.png" width="180" alt="Category Panel" /></td>
-      <td ><img src="images/product-panel.png" width="180" alt="Product Panel" /></td>
-      <td  ><img src="images/swagger.png" width="220" alt="Swagger UI" /></td>
+      <td align="center"  ><img src="images/user-panel.png" width="180" alt="User Panel" /></td>
+      <td align="center"  ><img src="images/category-panel.png" width="180" alt="Category Panel" /></td>
+      <td align="center"  ><img src="images/product-panel.png" width="180" alt="Product Panel" /></td>
+      <td align="center"   ><img src="images/swagger.png" width="220" alt="Swagger UI" /></td>
     </tr>
   </table>
 </div>
