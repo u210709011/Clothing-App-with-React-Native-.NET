@@ -2,7 +2,7 @@
 
 A modern e-commerce mobile app built with React Native (Expo) and .NET 9 Web API. Features Firebase authentication, PostgreSQL database, and a comprehensive admin panel.
 
-<div align="center">
+<div style="align: center;">
   <img src="images/home.png" width="180" alt="Home Screen" />
   <img src="images/product.png" width="180" alt="Product Screen" />
   <img src="images/cart.png" width="180" alt="Cart Screen" />
@@ -10,14 +10,14 @@ A modern e-commerce mobile app built with React Native (Expo) and .NET 9 Web API
   
 </div>
 
-<div align="center">
+<div style="align: center;">
   <img src="images/product.png" width="180" alt="Product Screen" />
   <img src="images/search.png" width="180" alt="Search Screen" />
   <img src="images/profile.png" width="180" alt="Profile Screen" />
   <img src="images/admin-panel.png" width="180" alt="Admin Panel" />
 </div>
 
-<div align="center">
+<div style="align: center;">
   <img src="images/swagger.png" width="220" alt="Swagger UI" />
 </div>
 ## 🚀 Quick Start
