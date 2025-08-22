@@ -317,7 +317,7 @@ dotnet ef database update              # Apply migrations
 
 ### Testing
 
-- **API Testing:** Use Swagger UI at `http://localhost:5186/swagger`
+- **API Testing:** Use Swagger UI at `http://localhost:5186/swagger` or Postman(recommended)
 - **Mobile Testing:** Use Expo Go app or build with EAS
 - **Database Testing:** Use pgAdmin or any PostgreSQL client
 
