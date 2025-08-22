@@ -21,6 +21,7 @@ A modern e-commerce mobile app built with React Native (Expo) and .NET 9 Web API
     </tr>
   </table>
 </div>
+
 ## 🚀 Quick Start
 
 ### Prerequisites
