@@ -17,7 +17,10 @@ A modern e-commerce mobile app built with React Native (Expo) and .NET 9 Web API
       <td><img src="images/admin-panel.png" width="180" alt="Admin Panel" /></td>
     </tr>
     <tr>
-      <td colspan="4" align="center"><img src="images/swagger.png" width="220" alt="Swagger UI" /></td>
+      <td ><img src="images/user-panel.png" width="180" alt="User Panel" /></td>
+      <td ><img src="images/category-panel.png" width="180" alt="Category Panel" /></td>
+      <td ><img src="images/product-panel.png" width="180" alt="Product Panel" /></td>
+      <td  ><img src="images/swagger.png" width="220" alt="Swagger UI" /></td>
     </tr>
   </table>
 </div>
