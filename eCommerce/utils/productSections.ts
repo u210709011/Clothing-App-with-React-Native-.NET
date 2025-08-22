@@ -13,7 +13,7 @@ export function createProductSections(products: Product[]): ProductSection[] {
 
   const sections: ProductSection[] = [];
 
-  // New Arrivals section (first 6 products)
+  // TODO: Create new arrivals
   const newArrivals = products.slice(0, 6);
   if (newArrivals.length > 0) {
     sections.push({
@@ -23,7 +23,7 @@ export function createProductSections(products: Product[]): ProductSection[] {
     });
   }
 
-  // Popular section (next 6 products)
+  // TODO: Create popular
   const popular = products.slice(6, 12);
   if (popular.length > 0) {
     sections.push({
@@ -33,7 +33,7 @@ export function createProductSections(products: Product[]): ProductSection[] {
     });
   }
 
-  // Trending section (next 6 products)
+  // TODO: Create trending
   const trending = products.slice(12, 18);
   if (trending.length > 0) {
     sections.push({

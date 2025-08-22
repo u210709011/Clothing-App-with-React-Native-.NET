@@ -35,7 +35,6 @@ public sealed class FirebaseAuthenticationHandler : AuthenticationHandler<Authen
 
         try
         {
-            // Initialize FirebaseApp once
             if (FirebaseApp.DefaultInstance is null)
             {
                 var config = Context.RequestServices.GetRequiredService<IConfiguration>();
@@ -78,7 +77,6 @@ public sealed class FirebaseAuthenticationHandler : AuthenticationHandler<Authen
                 claims.Add(new Claim(ClaimTypes.Role, roleStr));
             }
 
-            // Keep it simple: only map { "role": "Admin" }
 
             var identity = new ClaimsIdentity(claims, SchemeName);
             var principal = new ClaimsPrincipal(identity);

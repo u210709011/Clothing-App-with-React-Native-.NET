@@ -173,7 +173,6 @@ public class ProductService(AppDbContext db, IFlashSaleService flashSale) : IPro
 
     public async Task<Guid> CreateProductAsync(CreateProductRequest request, CancellationToken ct = default)
     {
-        // Calculate derived price based on discount
         var originalPrice = request.OriginalPrice ?? request.Price;
         var finalPrice = request.DiscountPercent.HasValue && request.DiscountPercent > 0
             ? Math.Round(originalPrice * (1 - request.DiscountPercent.Value / 100m), 2)
@@ -235,7 +234,6 @@ public class ProductService(AppDbContext db, IFlashSaleService flashSale) : IPro
             .FirstOrDefaultAsync(p => p.Id == id, ct);
         if (entity is null) return false;
 
-        // Calculate derived price based on discount
         var originalPrice = request.OriginalPrice ?? request.Price;
         var finalPrice = request.DiscountPercent.HasValue && request.DiscountPercent > 0
             ? Math.Round(originalPrice * (1 - request.DiscountPercent.Value / 100m), 2)

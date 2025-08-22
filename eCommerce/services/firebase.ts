@@ -22,12 +22,10 @@ if (getApps().length === 0) {
 // INFO: Initialize Firebase Auth with React Native persistence
 let authInstance;
 try {
-  // Try to initialize auth with React Native persistence
   authInstance = initializeAuth(firebaseApp, {
     persistence: getReactNativePersistence(ReactNativeAsyncStorage),
   });
 } catch (error) {
-  // If auth is already initialized, get the existing instance
   console.log('Auth already initialized, using existing instance');
   authInstance = getAuth(firebaseApp);
 }
