@@ -1,6 +1,6 @@
 # DuyuBox Commerce
 
-A modern e-commerce mobile app built with React Native (Expo) and .NET 9 Web API. Features Firebase authentication, PostgreSQL database, and a comprehensive admin panel.
+A modern e-commerce mobile app built with React Native (Expo) and .NET 9 Web API. Features Firebase authentication, PostgreSQL database, and an admin panel to manage products, categories and users.
 
 <div align="center">
   <table>
