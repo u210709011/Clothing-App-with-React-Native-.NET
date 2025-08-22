@@ -2,8 +2,11 @@
 
 A modern e-commerce mobile app built with React Native (Expo) and .NET 9 Web API. Features Firebase authentication, PostgreSQL database, and a comprehensive admin panel.
 
-![App Home Screen](images/home.png)
-
+![App Home Screen](images/home.png) ![App Product Screen](images/product.png)
+![App Cart Screen](images/cart.png) ![App Wishlist Screen](images/wishlist.png)
+![App Product Screen](images/product.png) ![App Search Screen](images/search.png)
+![App Profile Screen](images/profile.png)
+![App Admin Panel](images/admin-panel.png) ![App Swagger API](images/swagger.png)
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -120,7 +123,6 @@ ngrok http 5186
 
 3. In the mobile app, navigate to Settings and set the API URL to your ngrok URL
 
-[Insert ngrok setup screenshot here]
 
 ---
 
@@ -181,7 +183,6 @@ GRANT ALL PRIVILEGES ON DATABASE your_database_name TO your_username;
 - ⭐ Product reviews and ratings # WIP
 - 📍 Address management # WIP
 
-[Insert customer features screenshots here]
 
 ### Admin Features
 - 👥 User management
@@ -191,7 +192,6 @@ GRANT ALL PRIVILEGES ON DATABASE your_database_name TO your_username;
 - 🔥 Flash sale management # WIP
 - 📋 Order management # WIP
 
-[Insert admin panel screenshots here]
 
 ---
 
@@ -217,7 +217,6 @@ curl -X POST http://localhost:5186/api/v1/admin/users \
   -d '{"email":"admin@example.com","password":"password","role":"Admin"}'
 ```
 
-[Insert authentication screenshots here]
 
 ---
 
@@ -240,7 +239,6 @@ DuyuBox_Commerce/
     └── Security/           # Authentication handlers
 ```
 
-[Insert project structure screenshot here]
 
 ---
 
@@ -285,7 +283,6 @@ dotnet ef database update              # Apply migrations
 - Clear Metro cache: `npx expo start --clear`
 - Reset project: `npm run reset-project`
 
-[Insert troubleshooting screenshots here]
 
 ---
 
@@ -309,7 +306,6 @@ dotnet ef database update              # Apply migrations
 - **Mobile Testing:** Use Expo Go app or build with EAS
 - **Database Testing:** Use pgAdmin or any PostgreSQL client
 
-[Insert development workflow screenshots here]
 
 ---
 
@@ -326,7 +322,6 @@ eas build --platform android
 eas build --platform ios
 ```
 
-[Insert deployment screenshots here]
 
 ---
 
@@ -350,5 +345,3 @@ For issues and questions:
 ---
 
 **Note:** This is a development setup. For production, ensure proper security configurations, environment variables, and database backups are in place.
-
-[Insert final app showcase screenshot here]
