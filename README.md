@@ -100,16 +100,15 @@ EXPO_PUBLIC_FIREBASE_APP_ID=your_app_id
 
 Edit `eCommerce/config/environment.ts`:
 
-**For Emulator/Simulator Testing:**
+**For Emulator Testing:**
 ```typescript
-export const USE_NGROK = false;
 export const EMULATOR = true;
+
 ```
 
-**For Physical Device Testing:**
+**For Remote Build Testing:**
 ```typescript
 export const USE_NGROK = true;
-export const EMULATOR = false;
 ```
 
 ### 4. Start the App
@@ -124,7 +123,7 @@ npx expo start
 
 ---
 
-## Testing on Physical Devices
+## Testing on Physical Devices with temporary ngrok tunnel
 
 ### Using ngrok
 
@@ -135,7 +134,7 @@ ngrok http 5186
 
 2. Copy the ngrok URL (e.g., `https://abc123.ngrok.io`)
 
-3. In the mobile app, navigate to Settings and set the API URL to your ngrok URL
+3. Paste the ngrok url in the app.
 
 
 ---
@@ -237,7 +236,7 @@ curl -X POST http://localhost:5186/api/v1/admin/users \
 ## Project Structure
 
 ```
-DuyuBox_Commerce/
+
 ├── eCommerce/                 # React Native frontend
 │   ├── app/                  # Expo Router pages
 │   ├── components/           # UI components
@@ -260,10 +259,8 @@ DuyuBox_Commerce/
 
 ### Frontend
 ```bash
-npx expo start          # Start development server
-npx expo run:android    # Run on Android emulator
-npx expo run:ios        # Run on iOS simulator
-npx expo run:web        # Run in web browser
+npx expo start          # Start development server on local
+npx expo start --tunnel # Start development server on expo.io
 ```
 
 ### Backend
